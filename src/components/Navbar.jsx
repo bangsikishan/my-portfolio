@@ -16,15 +16,15 @@ const Navbar = () => {
                 <RxHamburgerMenu className="text-3xl" />
             </div>
             <div className="hidden space-x-10 font-medium md:flex md:flex-row">
-                <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Home</a>
-                <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">About</a>
+                <a href="#main" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Home</a>
+                <a href="#about-me" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">About</a>
                 <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Resume</a>
                 <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Portfolio</a>
                 <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Contact</a>
             </div>
             {showNav ? 
                 (
-                    <div className="absolute top-16 left-0 flex flex-col items-center w-full space-y-4 py-8 font-medium bg-inherit">
+                    <div className="absolute top-16 left-0 flex flex-col items-center w-full space-y-4 py-8 font-medium bg-[#111111]">
                         <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Home</a>
                         <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">About</a>
                         <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Resume</a>
