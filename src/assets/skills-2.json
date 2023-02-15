@@ -1,0 +1,14 @@
+[
+    {
+        "skill": "ReactJS",
+        "percentage": "75%"
+    },
+    {
+        "skill": "NodeJS",
+        "percentage": "70%"
+    },
+    {
+        "skill": "TailwindCSS",
+        "percentage": "90%"
+    }
+]

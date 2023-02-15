@@ -1,0 +1,14 @@
+[
+    {
+        "skill": "HTML/CSS",
+        "percentage": "90%"
+    },
+    {
+        "skill": "Javascript",
+        "percentage": "75%"
+    },
+    {
+        "skill": "Laravel",
+        "percentage": "70%"
+    }
+]

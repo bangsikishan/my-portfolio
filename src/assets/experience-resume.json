@@ -1,0 +1,20 @@
+[
+    {
+        "timeline": "2022 - present",
+        "education": "Full stack Developer",
+        "institution": "Personal Projects",
+        "description": "Learning full-stack web development using MERN stack by myself."
+    },
+    {
+        "timeline": "2023 - present",
+        "education": "Laravel Developer",
+        "institution": "The British College",
+        "description": "Currently developing Laravel skills independently."
+    },
+    {
+        "timeline": "2019 - 2020",
+        "education": "Flask Web Developer",
+        "institution": "Personal Projects",
+        "description": "Began journey in IT using Python and Flask as a web dev framework."
+    }
+]

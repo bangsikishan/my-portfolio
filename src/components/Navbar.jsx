@@ -23,7 +23,7 @@ const Navbar = () => {
                 <a href="#main" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Home</a>
                 <a href="#about-me" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">About</a>
                 <a href="#resume" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Resume</a>
-                <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Portfolio</a>
+                <a href="#work" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Portfolio</a>
                 <a href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Contact</a>
             </div>
             {showNav ? 
@@ -32,7 +32,7 @@ const Navbar = () => {
                         <a onClick={closeNav} href="#main" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Home</a>
                         <a onClick={closeNav} href="#about-me" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">About</a>
                         <a onClick={closeNav} href="#resume" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Resume</a>
-                        <a onClick={closeNav} href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Portfolio</a>
+                        <a onClick={closeNav} href="#work" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Portfolio</a>
                         <a onClick={closeNav} href="#" className="my-auto hover:text-[#20c997] transition ease-in-out duration-300">Contact</a>
                     </div>
                 ) : 
