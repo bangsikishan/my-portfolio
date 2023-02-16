@@ -1,12 +1,9 @@
 import { ImDownload2 } from 'react-icons/im';
 
 import ResumeItem from './ResumeItem';
-import SkillBar from './SkillBar';
 
 import education from '../assets/education-resume.json';
 import experience from '../assets/experience-resume.json';
-import skillsOne from '../assets/skills-1.json';
-import skillsTwo from '../assets/skills-2.json';
 
 
 const Resume = () => {
@@ -42,20 +39,62 @@ const Resume = () => {
                 <h1 className="my-6 text-2xl font-semibold text-center md:text-left text-white">My Skills</h1>
                 <div className="px-10 grid lg:grid-cols-2 lg:gap-20 md:px-0">
                     <div className="mt-6  space-y-6 text-white">
-                        {skillsOne.map((skill, id) => 
-                            <SkillBar key={id} 
-                                skill={skill.skill} 
-                                percentage={skill.percentage} 
-                            />
-                        )}
+                        <div className="space-y-3">
+                            <p className="flex justify-between">
+                                HTML/CSS
+                                <span>90%</span>
+                            </p>
+                            <div className="relative w-full h-2 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-md before:content-[''] before:bg-[#111418]">
+                                <div className="absolute top-0 left-0 h-full w-[90%] rounded-l-md bg-[#20c997]"></div>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <p className="flex justify-between">
+                                Javascript
+                                <span>75%</span>
+                            </p>
+                            <div className="relative w-full h-2 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-md before:content-[''] before:bg-[#111418]">
+                                <div className="absolute top-0 left-0 h-full w-[75%] rounded-l-md bg-[#20c997]"></div>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <p className="flex justify-between">
+                                Laravel
+                                <span>70%</span>
+                            </p>
+                            <div className="relative w-full h-2 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-md before:content-[''] before:bg-[#111418]">
+                                <div className="absolute top-0 left-0 h-full w-[70%] rounded-l-md bg-[#20c997]"></div>
+                            </div>
+                        </div>
                     </div>
                     <div className="mt-6 space-y-6 text-white">
-                        {skillsTwo.map((skill, id) => 
-                            <SkillBar key={id} 
-                                skill={skill.skill} 
-                                percentage={skill.percentage} 
-                            />
-                        )}
+                        <div className="space-y-3">
+                            <p className="flex justify-between">
+                                ReactJS
+                                <span>75%</span>
+                            </p>
+                            <div className="relative w-full h-2 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-md before:content-[''] before:bg-[#111418]">
+                                <div className="absolute top-0 left-0 h-full w-[75%] rounded-l-md bg-[#20c997]"></div>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <p className="flex justify-between">
+                                NodeJS
+                                <span>70%</span>
+                            </p>
+                            <div className="relative w-full h-2 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-md before:content-[''] before:bg-[#111418]">
+                                <div className="absolute top-0 left-0 h-full w-[70%] rounded-l-md bg-[#20c997]"></div>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <p className="flex justify-between">
+                                TailwindCSS
+                                <span>90%</span>
+                            </p>
+                            <div className="relative w-full h-2 rounded-md before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-md before:content-[''] before:bg-[#111418]">
+                                <div className="absolute top-0 left-0 h-full w-[90%] rounded-l-md bg-[#20c997]"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

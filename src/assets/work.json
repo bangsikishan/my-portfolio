@@ -1,0 +1,38 @@
+[
+    {
+        "link": "https://github.com/bangsikishan/my-portfolio",
+        "image": "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Portfolio Website",
+        "technology": "React JS"
+    },
+    {
+        "link": "https://github.com/bangsikishan/youtube-clone",
+        "image": "https://images.pexels.com/photos/34407/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "YouTube Clone",
+        "technology": "React JS"
+    },
+    {
+        "link": "https://github.com/bangsikishan/react-weather-app",
+        "image": "https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Weather App",
+        "technology": "React JS"
+    },
+    {
+        "link": "https://github.com/bangsikishan/Laravel_Todo",
+        "image": "https://images.pexels.com/photos/3243/pen-calendar-to-do-checklist.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Todo App",
+        "technology": "Laravel"
+    },
+    {
+        "link": "https://github.com/bangsikishan/MERN",
+        "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "Workout Tracker",
+        "technology": "MERN"
+    },
+    {
+        "link": "https://github.com/bangsikishan/mern-chatGPT",
+        "image": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        "title": "MERN ChatGPT",
+        "technology": "MERN"
+    }
+]
