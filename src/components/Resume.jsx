@@ -98,7 +98,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-            <a className="flex items-center mx-auto py-3 px-8 w-fit text-gray-500 border-2 border-gray-500 rounded-full hover:bg-gray-500 hover:text-white transition duration-500 ease-in-out" href="#" download>
+            <a className="flex items-center mx-auto py-3 px-8 w-fit text-gray-500 border-2 border-gray-500 rounded-full hover:bg-gray-500 hover:text-white transition duration-500 ease-in-out" href="./Kishan_Bangsi_CV.pdf" target="_blank" download>
                 Download CV
                 <ImDownload2 className="ml-2" />
             </a>
